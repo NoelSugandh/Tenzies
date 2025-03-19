@@ -71,8 +71,8 @@ export default function Index() {
       </div>
       <h1 className="title">Tenzies</h1>
       <p className="instructions">
-        Roll until all dice are the same number. Click each die to freeze it at
-        its current value between rolls.
+        Roll until all dice are same number. Click each die to freeze it at its
+        current value between rolls.
       </p>
       <div className="grid">{diceElements}</div>
       <button ref={buttonRef} className="Roll" onClick={rollDice}>
